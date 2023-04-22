@@ -1,16 +1,13 @@
-# tenth_app
+# Flutter Responsive Design
+This program is to test flutter and dart, testing out a basic responsive design for web, mobile & desktop.
 
-A new Flutter project.
+# Contribution 
 
-## Getting Started
+If you'd like to contribute to `flutter_responsive_design` please submit a pull-request on a feature branch.
 
-This project is a starting point for a Flutter application.
+# Installing
 
-A few resources to get you started if this is your first Flutter project:
+Clone the repo:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    git clone https://github.com/Sommos/flutter_responsive_design
+    cd flutter_responsive_design
