@@ -14,12 +14,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: ResponsiveLayout(
-        mobileScaffold: const MobileScaffold(),
-        tabletScaffold: const TabletScaffold(),
-        desktopScaffold: const DesktopScaffold(),
+        mobileScaffold: MobileScaffold(),
+        tabletScaffold: TabletScaffold(),
+        desktopScaffold: DesktopScaffold(),
       ),
     );
   }

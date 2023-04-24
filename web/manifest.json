@@ -1,11 +1,11 @@
 {
-    "name": "tenth_app",
-    "short_name": "tenth_app",
+    "name": "Responsive Design",
+    "short_name": "Responsive Design",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "This program is to test flutter and dart, testing out a basic responsive design for web, mobile & desktop.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
