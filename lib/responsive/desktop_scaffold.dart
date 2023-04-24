@@ -15,9 +15,12 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
     return Scaffold(
       appBar: myAppBar,
       backgroundColor: myDefaultBackground,
-      drawer: myDrawer,
-      body: const Center(
-        child: Text("Desktop"),
+      body: Row(
+        children: [
+          // open drawer automatically on desktop
+          myDrawer,
+          // rest of body
+        ],
       ),
     );
   }
