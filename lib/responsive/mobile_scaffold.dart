@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
+import 'util/my_box.dart';
 
 class MobileScaffold extends StatefulWidget {
   const MobileScaffold({super.key});
@@ -16,8 +17,27 @@ class _MobileScaffoldState extends State<MobileScaffold> {
       appBar: myAppBar,
       backgroundColor: myDefaultBackground,
       drawer: myDrawer,
-      body: const Center(
-        child: Text("Mobile"),
+      body: Column(
+        children: [
+          // 4 boxes on top
+          AspectRatio(
+            aspectRatio: 1.00,
+            child: SizedBox(
+              width: double.infinity,
+              child: GridView.builder(
+                itemCount: 4,
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                  childAspectRatio: 1.5,
+                ),
+                itemBuilder: (context, index) {
+                  return const MyBox();
+                },
+              ),
+            ),
+          ),
+          // tiles below it
+        ],
       ),
     );
   }
